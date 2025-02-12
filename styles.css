@@ -1,0 +1,114 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 0;
+    padding: 75px 0;
+    background: linear-gradient(white, pink);
+    font-family: "Steph", sans-serif;
+}
+
+img {
+    border-radius: 10%;
+}
+
+#gif {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 20px auto;
+    color: white;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+button {
+    border-radius: 8px;
+    min-width: 100px;
+    max-width: 500px;
+    border-width: 5px;
+    border-color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    white-space: nowrap;
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: transform 0.1s ease;
+}
+
+button:hover {
+    scale: 1.1;
+}
+
+#yes-btn {
+    transform-origin: center top;
+    color: white;
+    background-color: teal;
+}
+
+#no-btn {
+    color: white;
+    background-color: palevioletred;
+}
+
+/* for iPhone */
+@media (max-width: 1400) {
+    body {
+        padding-top: 70px;
+    }
+    
+    .container {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .gif {
+        border-radius: 50%;
+        width: 380px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin: 50px auto;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    button {
+        border-radius: 8px;
+        min-width: 100px;
+        max-width: 400px;
+        border: none;
+        cursor: pointer;
+        padding: 10px 12px;
+        border-color: white;
+        cursor: pointer;
+        padding: 10px 15px;
+        white-space: nowrap;
+        font-size: 1rem;
+        font-weight: 500;
+        transition: transform 0.1s ease;
+    }
+}
