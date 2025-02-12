@@ -68,47 +68,47 @@ button:hover {
 }
 
 /* for iPhone */
-@media (max-width: 1400) {
-    body {
-        padding-top: 70px;
-    }
-    
-    .container {
-        max-width: 100%;
-        margin: 0;
-    }
+@media (max-width: 2000) {
+body {
+    padding-top: 70px;
+}
 
-    .gif {
-        border-radius: 50%;
-        width: 380px;
-        height: 300px;
-        object-fit: cover;
-    }
+.container {
+    max-width: 100%;
+    margin: 0;
+}
 
-    h1 {
-        font-size: 2rem;
-        margin: 50px auto;
-    }
+.gif {
+    border-radius: 50%;
+    width: 380px;
+    height: 300px;
+    object-fit: cover;
+}
 
-    .btn-container {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
+h1 {
+    font-size: 2rem;
+    margin: 50px auto;
+}
 
-    button {
-        border-radius: 8px;
-        min-width: 100px;
-        max-width: 400px;
-        border: none;
-        cursor: pointer;
-        padding: 10px 12px;
-        border-color: white;
-        cursor: pointer;
-        padding: 10px 15px;
-        white-space: nowrap;
-        font-size: 1rem;
-        font-weight: 500;
-        transition: transform 0.1s ease;
-    }
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    border-radius: 8px;
+    min-width: 100px;
+    max-width: 400px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 12px;
+    border-color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    white-space: nowrap;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: transform 0.1s ease;
+}
 }
